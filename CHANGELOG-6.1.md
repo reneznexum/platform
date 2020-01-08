@@ -112,8 +112,8 @@ To get the diff between two versions, go to https://github.com/shopware/platform
         * Remove data `userProfile`
         * Replace `setUserData` to `getUserData`
         * `saveFinish` is now an asynchronous method
-     
-
+    * Fixed the inheritance reset for the price field in the variant listing.
+    * Fixed product name column in product review listing
 * Core    
 	* We did some refactoring on how we use `WriteConstraintsViolationExceptions`.	
         It's path `property` should now point to the object that is inspected by an validator while the `propertyPath` property in `WriteConstraint` objects should only point to the invalid property. 	
